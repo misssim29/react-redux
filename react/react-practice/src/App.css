@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid cadetblue;
+}
+.header a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: cadetblue;
+  border-radius: 4px;
+  padding: 10px;
+}
+.header a:hover {
+  background-color: aquamarine;
+}

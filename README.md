@@ -422,7 +422,9 @@ ex: {idx > 0 ? idx : ''}
 
 ## 요약 vue - react 비교
 
+```
 ref() = useState()
 mounted() = useEffect()
 unmounted() = useEffect()에 return값으로 넘기기
 ref = ref/useRef()
+```

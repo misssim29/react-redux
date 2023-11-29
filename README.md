@@ -418,7 +418,10 @@ for -> htmlFor
 ### react - html안에 if문 쓰는 방법
 
 {} 중괄호 안에 삼항연산자로 넣어준다.
+
+```
 ex: {idx > 0 ? idx : ''}
+```
 
 ## 요약 vue - react 비교
 
@@ -428,3 +431,5 @@ mounted() = useEffect()
 unmounted() = useEffect()에 return값으로 넘기기
 ref = ref/useRef()
 ```
+
+## Redux

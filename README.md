@@ -433,3 +433,26 @@ ref = ref/useRef()
 ```
 
 ## Redux
+
+### REDUX 설치
+
+npm i @reduxjs/toolkit redux react-redux
+
+### redux toolkit 사용법
+
+useSelector와 useDispatch로 store을 사용할 수 있다.
+store는 slice로 이루어져있으며 여러개의 slice를 name을 지정해 쓸 수 있다.
+
+```
+const Todos = createSlice({
+    name: "todos",
+    initialState: { list: [] },
+    reducers: {
+        addTodo: (state, action) => {
+            state.list.push(action.todo);
+        },
+    },
+});
+const count = useSelector((state) => state.counter.value);
+const dispatch = useDispatch();
+```
